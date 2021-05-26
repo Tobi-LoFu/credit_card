@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+:root {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Orbitron', sans-serif;
+    
+}
+
+.bg {
+    width: 80rem;
+    height: 80rem;
+    margin: 5rem auto;
+    background: linear-gradient(135deg,#322225,
+    #470210);
+    background-repeat: no-repeat;
+}
+
+.ball {
+    width: 40rem;
+    height: 40rem;
+    background: radial-gradient(circle at 25% 25%,rgb(255, 148, 9) 8%, rgba(102, 14, 14, 0.835) 78%);
+    border-radius: 50%;
+    margin: auto;
+    position: relative;
+    top: 25%;
+    
+}
+
+.card_main {
+    width: 50rem;
+    height: 30rem;
+    border: 1px solid #eee;
+    position: relative;
+    bottom: 20%;
+    left: 19%;
+    transform: rotate(-15deg);
+    border-radius: 10px;
+    backdrop-filter: blur(3px);
+    background-color: rgba(245, 245, 220, 0.219);
+}
+
+.card_content img {
+    width: 10rem;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+.bank {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: rgb(98, 98, 98);
+    position: absolute;
+    top: 3rem;
+    left: 2rem;
+    text-shadow: 0.2rem 0.2rem 0.2rem rgb(168, 168, 168), 
+                 0.2rem 0.2rem 0.3rem rgb(90, 88, 88);
+}
+
+li {
+    display: inline-block;
+    width: 22%;
+    padding-left: 2rem;
+}
+
+
+.number {
+    font-size: 2rem;
+    font-family: 'Orbitron', sans-serif;
+    display: inline-block;
+    width: 100%;
+    color: rgb(173, 173, 173);
+    position: absolute;
+    bottom: 5rem;
+    text-shadow: 0.2rem 0.2rem 0.2rem #000, 
+                 0.2rem 0.2rem 0.3rem #fff;
+}
+
+.name {
+    font-family: 'Inconsolata', monospace;
+    color: rgb(151, 151, 151);
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+    text-shadow: 0.2rem 0.2rem 0.2rem #000, 
+                 0.2rem 0.2rem 0.3rem #fff;
+    transition: all 1s cubic-bezier(0.23, 1, 0.320, 1)
+}
